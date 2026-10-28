@@ -1,0 +1,2128 @@
+{
+  "categories": {
+    "Anime": [
+      {
+        "word": "Naruto",
+        "hint": "Orange-clad ninja who dreams of becoming Hokage",
+        "difficulty": "easy",
+        "relatedWord": "Sasuke",
+        "relatedHint": "Brooding rival with the Sharingan"
+      },
+      {
+        "word": "Gojo",
+        "hint": "Blindfolded white-haired sorcerer who claims to be the strongest",
+        "difficulty": "easy",
+        "relatedWord": "Sukuna",
+        "relatedHint": "King of Curses sealed inside fingers"
+      },
+      {
+        "word": "One Piece",
+        "hint": "Pirate epic about the hunt for the ultimate treasure",
+        "difficulty": "easy",
+        "relatedWord": "Luffy",
+        "relatedHint": "Rubber-bodied captain with a straw hat"
+      },
+      {
+        "word": "Goku",
+        "hint": "Saiyan hero who turns golden when he powers up",
+        "difficulty": "easy",
+        "relatedWord": "Vegeta",
+        "relatedHint": "Proud prince of a warrior race"
+      },
+      {
+        "word": "Death Note",
+        "hint": "Notebook that kills anyone whose name is written in it",
+        "difficulty": "medium",
+        "relatedWord": "Ryuk",
+        "relatedHint": "Apple-loving shinigami who dropped the notebook"
+      },
+      {
+        "word": "Attack on Titan",
+        "hint": "Humanity hides behind giant walls from towering man-eaters",
+        "difficulty": "medium",
+        "relatedWord": "Eren Yeager",
+        "relatedHint": "Hot-headed hero who can become a giant"
+      },
+      {
+        "word": "Demon Slayer",
+        "hint": "Swordsmen hunt man-eating creatures of the night",
+        "difficulty": "easy",
+        "relatedWord": "Nezuko",
+        "relatedHint": "Girl in a bamboo muzzle who is half-demon"
+      },
+      {
+        "word": "Itachi",
+        "hint": "Tragic Uchiha who wiped out his own clan",
+        "difficulty": "medium",
+        "relatedWord": "Akatsuki",
+        "relatedHint": "Red-cloud cloaked organization of rogue ninja"
+      },
+      {
+        "word": "Saitama",
+        "hint": "Bald hero who ends every fight with one punch",
+        "difficulty": "easy",
+        "relatedWord": "Genos",
+        "relatedHint": "Cyborg disciple who follows him around"
+      },
+      {
+        "word": "Deku",
+        "hint": "Quirkless boy who inherits a legendary power",
+        "difficulty": "easy",
+        "relatedWord": "Bakugo",
+        "relatedHint": "Explosive, short-tempered childhood rival"
+      },
+      {
+        "word": "Totoro",
+        "hint": "Giant fluffy forest spirit who loves umbrellas",
+        "difficulty": "medium",
+        "relatedWord": "Catbus",
+        "relatedHint": "Grinning feline vehicle with many legs"
+      },
+      {
+        "word": "Sailor Moon",
+        "hint": "Magical girl in a school-style outfit fighting for love and justice",
+        "difficulty": "medium",
+        "relatedWord": "Tuxedo Mask",
+        "relatedHint": "Masked, rose-throwing helper"
+      },
+      {
+        "word": "Doraemon",
+        "hint": "Blue robotic cat from the future with a magic pocket",
+        "difficulty": "easy",
+        "relatedWord": "Nobita",
+        "relatedHint": "Clumsy schoolboy who always needs help"
+      },
+      {
+        "word": "Shinchan",
+        "hint": "Mischievous five-year-old famous for his bare-bottom dance",
+        "difficulty": "easy",
+        "relatedWord": "Action Kamen",
+        "relatedHint": "Masked TV hero he adores"
+      },
+      {
+        "word": "Dragon Ball",
+        "hint": "Seven orbs summon a wish-granting dragon",
+        "difficulty": "easy",
+        "relatedWord": "Shenron",
+        "relatedHint": "Long green dragon who grants wishes"
+      },
+      {
+        "word": "Bleach",
+        "hint": "Teen with a giant sword becomes a guardian of departed souls",
+        "difficulty": "medium",
+        "relatedWord": "Rukia",
+        "relatedHint": "Petite soul guardian who gives him his powers"
+      },
+      {
+        "word": "Fullmetal Alchemist",
+        "hint": "Brothers use equivalent exchange to restore their bodies",
+        "difficulty": "hard",
+        "relatedWord": "Philosopher's Stone",
+        "relatedHint": "Legendary object that amplifies alchemy"
+      },
+      {
+        "word": "Levi Ackerman",
+        "hint": "Cleanliness-obsessed captain and humanity's strongest soldier",
+        "difficulty": "medium",
+        "relatedWord": "Mikasa",
+        "relatedHint": "Red-scarfed soldier loyal to her adoptive brother"
+      },
+      {
+        "word": "Tanjiro",
+        "hint": "Kind boy with a scar on his forehead and hanafuda earrings",
+        "difficulty": "medium",
+        "relatedWord": "Zenitsu",
+        "relatedHint": "Yellow-haired swordsman who fights best while asleep"
+      },
+      {
+        "word": "Hunter x Hunter",
+        "hint": "Boy takes a license exam to find his father",
+        "difficulty": "hard",
+        "relatedWord": "Killua",
+        "relatedHint": "Silver-haired boy from a family of assassins"
+      },
+      {
+        "word": "Jujutsu Kaisen",
+        "hint": "Students battle curses using cursed energy",
+        "difficulty": "medium",
+        "relatedWord": "Yuji Itadori",
+        "relatedHint": "Teen who swallowed a cursed finger"
+      },
+      {
+        "word": "Pikachu",
+        "hint": "Yellow electric mouse with red cheeks",
+        "difficulty": "easy",
+        "relatedWord": "Ash Ketchum",
+        "relatedHint": "Eternal ten-year-old trainer who wants to be the very best"
+      },
+      {
+        "word": "Spy x Family",
+        "hint": "A spy, an assassin and a mind-reader pose as a household",
+        "difficulty": "medium",
+        "relatedWord": "Anya",
+        "relatedHint": "Peanut-loving telepathic little girl"
+      },
+      {
+        "word": "Chainsaw Man",
+        "hint": "Devil hunter who sprouts blades from his head and arms",
+        "difficulty": "medium",
+        "relatedWord": "Pochita",
+        "relatedHint": "Tiny orange devil that powers him up"
+      },
+      {
+        "word": "Haikyuu",
+        "hint": "Volleyball series about a short player with a huge jump",
+        "difficulty": "medium",
+        "relatedWord": "Kageyama",
+        "relatedHint": "Genius setter who teams up with him"
+      }
+    ],
+    "Gaming": [
+      {
+        "word": "Minecraft",
+        "hint": "Blocky sandbox where you mine, craft and survive the night",
+        "difficulty": "easy",
+        "relatedWord": "Creeper",
+        "relatedHint": "Green hissing mob that explodes near you"
+      },
+      {
+        "word": "GTA",
+        "hint": "Open-world crime series set in sunny fictional cities",
+        "difficulty": "easy",
+        "relatedWord": "Los Santos",
+        "relatedHint": "Fictional city based on Los Angeles"
+      },
+      {
+        "word": "Valorant",
+        "hint": "Tactical 5v5 shooter with agents and special abilities",
+        "difficulty": "easy",
+        "relatedWord": "Jett",
+        "relatedHint": "Agent who dashes and floats with wind powers"
+      },
+      {
+        "word": "Fortnite",
+        "hint": "Battle royale where players build walls and dance in victory",
+        "difficulty": "easy",
+        "relatedWord": "Victory Royale",
+        "relatedHint": "What you get for being the last one standing"
+      },
+      {
+        "word": "PUBG",
+        "hint": "Hundred players parachute onto an island to fight to the end",
+        "difficulty": "easy",
+        "relatedWord": "Chicken Dinner",
+        "relatedHint": "Famous phrase shown after winning"
+      },
+      {
+        "word": "Among Us",
+        "hint": "Crewmates complete tasks while someone is secretly sabotaging",
+        "difficulty": "easy",
+        "relatedWord": "Impostor",
+        "relatedHint": "The sneaky role who eliminates the crew"
+      },
+      {
+        "word": "Free Fire",
+        "hint": "Fast ten-minute battle royale popular on mobile phones",
+        "difficulty": "easy",
+        "relatedWord": "Booyah",
+        "relatedHint": "Victory shout after winning a match"
+      },
+      {
+        "word": "Call of Duty",
+        "hint": "Military shooter franchise with a massive annual release",
+        "difficulty": "easy",
+        "relatedWord": "Warzone",
+        "relatedHint": "Free battle royale mode of the series"
+      },
+      {
+        "word": "FIFA",
+        "hint": "Football video game series with yearly editions",
+        "difficulty": "easy",
+        "relatedWord": "Ultimate Team",
+        "relatedHint": "Mode where you collect player cards"
+      },
+      {
+        "word": "Mario",
+        "hint": "Mustached plumber in red who jumps on enemies",
+        "difficulty": "easy",
+        "relatedWord": "Luigi",
+        "relatedHint": "His taller green-clad brother"
+      },
+      {
+        "word": "Zelda",
+        "hint": "Fantasy adventure series about a hero in a green tunic",
+        "difficulty": "medium",
+        "relatedWord": "Master Sword",
+        "relatedHint": "Legendary blade that seals the darkness"
+      },
+      {
+        "word": "Pac-Man",
+        "hint": "Yellow circle that gobbles dots in a maze",
+        "difficulty": "easy",
+        "relatedWord": "Blinky",
+        "relatedHint": "Red ghost that chases relentlessly"
+      },
+      {
+        "word": "Tetris",
+        "hint": "Falling shapes must be arranged into complete lines",
+        "difficulty": "easy",
+        "relatedWord": "Game Boy",
+        "relatedHint": "Handheld console that made this puzzle famous"
+      },
+      {
+        "word": "Roblox",
+        "hint": "Platform of user-made worlds and minigames",
+        "difficulty": "easy",
+        "relatedWord": "Robux",
+        "relatedHint": "Virtual currency used to buy items"
+      },
+      {
+        "word": "Fall Guys",
+        "hint": "Colorful bean characters race through wobbly obstacle courses",
+        "difficulty": "medium",
+        "relatedWord": "Crown",
+        "relatedHint": "Golden prize awarded to the winner"
+      },
+      {
+        "word": "League of Legends",
+        "hint": "Team-based strategy game where players destroy a Nexus",
+        "difficulty": "medium",
+        "relatedWord": "Summoner's Rift",
+        "relatedHint": "Main three-lane battlefield"
+      },
+      {
+        "word": "Counter-Strike",
+        "hint": "Classic shooter about planting and defusing a bomb",
+        "difficulty": "medium",
+        "relatedWord": "AWP",
+        "relatedHint": "Powerful sniper rifle with a famous one-shot kill"
+      },
+      {
+        "word": "Elden Ring",
+        "hint": "Brutally tough open-world RPG from the makers of Dark Souls",
+        "difficulty": "hard",
+        "relatedWord": "Tarnished",
+        "relatedHint": "Name for the exiled warrior player character"
+      },
+      {
+        "word": "Pokemon GO",
+        "hint": "Mobile game that makes you walk outside to catch creatures",
+        "difficulty": "medium",
+        "relatedWord": "Pokestop",
+        "relatedHint": "Landmark where you collect free items"
+      },
+      {
+        "word": "Clash of Clans",
+        "hint": "Mobile strategy game of building villages and raiding others",
+        "difficulty": "medium",
+        "relatedWord": "Barbarian",
+        "relatedHint": "Yellow-mustached troop with a sword"
+      },
+      {
+        "word": "Candy Crush",
+        "hint": "Match three sweets in a row to clear the board",
+        "difficulty": "easy",
+        "relatedWord": "Striped Candy",
+        "relatedHint": "Special piece that clears an entire line"
+      },
+      {
+        "word": "Subway Surfers",
+        "hint": "Endless runner where you dash away from an angry inspector",
+        "difficulty": "easy",
+        "relatedWord": "Hoverboard",
+        "relatedHint": "Gadget that protects you from one crash"
+      },
+      {
+        "word": "Genshin Impact",
+        "hint": "Anime-style open-world game with elemental combat and gacha pulls",
+        "difficulty": "medium",
+        "relatedWord": "Paimon",
+        "relatedHint": "Floating emergency food companion"
+      },
+      {
+        "word": "Apex Legends",
+        "hint": "Squad-based battle royale with unique characters",
+        "difficulty": "medium",
+        "relatedWord": "Wraith",
+        "relatedHint": "Legend who phases through a void dimension"
+      },
+      {
+        "word": "Cyberpunk 2077",
+        "hint": "Futuristic RPG set in a neon-soaked dystopia",
+        "difficulty": "hard",
+        "relatedWord": "Night City",
+        "relatedHint": "Crime-ridden megacity where it takes place"
+      }
+    ],
+    "Technology": [
+      {
+        "word": "Bluetooth",
+        "hint": "Short-range wireless connection named after a Viking king",
+        "difficulty": "easy",
+        "relatedWord": "Wi-Fi",
+        "relatedHint": "Wireless internet connection for a whole room"
+      },
+      {
+        "word": "Robot",
+        "hint": "Machine programmed to carry out tasks automatically",
+        "difficulty": "easy",
+        "relatedWord": "Android",
+        "relatedHint": "Robot designed to look like a human"
+      },
+      {
+        "word": "AI",
+        "hint": "Computers simulating human-like thinking and learning",
+        "difficulty": "easy",
+        "relatedWord": "Chatbot",
+        "relatedHint": "Program you talk to through text"
+      },
+      {
+        "word": "Blockchain",
+        "hint": "Chain of linked, tamper-proof digital records",
+        "difficulty": "hard",
+        "relatedWord": "Bitcoin",
+        "relatedHint": "First and most famous digital currency"
+      },
+      {
+        "word": "Drone",
+        "hint": "Small flying machine controlled remotely",
+        "difficulty": "easy",
+        "relatedWord": "Quadcopter",
+        "relatedHint": "Drone with four spinning rotors"
+      },
+      {
+        "word": "Virtual Reality",
+        "hint": "Headset-based experience that places you inside a digital world",
+        "difficulty": "medium",
+        "relatedWord": "Augmented Reality",
+        "relatedHint": "Tech that overlays digital objects on the real world"
+      },
+      {
+        "word": "QR Code",
+        "hint": "Square pattern you scan with a phone camera",
+        "difficulty": "easy",
+        "relatedWord": "Barcode",
+        "relatedHint": "Series of black lines scanned at shop counters"
+      },
+      {
+        "word": "Cloud Computing",
+        "hint": "Storing and using data on remote servers instead of your device",
+        "difficulty": "medium",
+        "relatedWord": "Data Center",
+        "relatedHint": "Giant building full of servers"
+      },
+      {
+        "word": "Smartwatch",
+        "hint": "Wrist gadget that tracks steps and shows notifications",
+        "difficulty": "easy",
+        "relatedWord": "Fitness Band",
+        "relatedHint": "Simpler wrist tracker focused on health"
+      },
+      {
+        "word": "5G",
+        "hint": "Latest generation of super-fast mobile networks",
+        "difficulty": "easy",
+        "relatedWord": "SIM Card",
+        "relatedHint": "Tiny chip that connects a phone to a network"
+      },
+      {
+        "word": "Cybersecurity",
+        "hint": "Protection of systems and data from digital attacks",
+        "difficulty": "medium",
+        "relatedWord": "Hacker",
+        "relatedHint": "Person who breaks into computer systems"
+      },
+      {
+        "word": "Quantum Computer",
+        "hint": "Futuristic machine that uses qubits instead of bits",
+        "difficulty": "hard",
+        "relatedWord": "Superposition",
+        "relatedHint": "State of being in many possibilities at once"
+      },
+      {
+        "word": "3D Printer",
+        "hint": "Machine that builds objects layer by layer from a digital design",
+        "difficulty": "medium",
+        "relatedWord": "Filament",
+        "relatedHint": "Plastic thread it melts to create things"
+      },
+      {
+        "word": "USB",
+        "hint": "Standard port for plugging in drives and charging cables",
+        "difficulty": "easy",
+        "relatedWord": "Pen Drive",
+        "relatedHint": "Pocket-sized portable storage stick"
+      },
+      {
+        "word": "Algorithm",
+        "hint": "Step-by-step set of instructions for solving a problem",
+        "difficulty": "medium",
+        "relatedWord": "Code",
+        "relatedHint": "Written instructions that computers follow"
+      },
+      {
+        "word": "Hologram",
+        "hint": "Three-dimensional light image that appears to float in air",
+        "difficulty": "hard",
+        "relatedWord": "Projector",
+        "relatedHint": "Device that throws an image onto a screen"
+      },
+      {
+        "word": "Touchscreen",
+        "hint": "Display you control by tapping and swiping",
+        "difficulty": "easy",
+        "relatedWord": "Stylus",
+        "relatedHint": "Pen-like tool used to write on a screen"
+      },
+      {
+        "word": "Satellite",
+        "hint": "Object orbiting Earth to relay signals or take pictures",
+        "difficulty": "medium",
+        "relatedWord": "ISRO",
+        "relatedHint": "India's national space agency"
+      },
+      {
+        "word": "Firewall",
+        "hint": "Digital barrier that blocks unwanted network traffic",
+        "difficulty": "medium",
+        "relatedWord": "Antivirus",
+        "relatedHint": "Software that hunts and removes malicious programs"
+      },
+      {
+        "word": "Machine Learning",
+        "hint": "Systems that improve by learning patterns from data",
+        "difficulty": "hard",
+        "relatedWord": "Neural Network",
+        "relatedHint": "Brain-inspired layered model used for learning"
+      },
+      {
+        "word": "Cryptocurrency",
+        "hint": "Digital money secured by encryption",
+        "difficulty": "medium",
+        "relatedWord": "Wallet",
+        "relatedHint": "Place where digital coins are stored"
+      },
+      {
+        "word": "GPS",
+        "hint": "Satellite system that tells you your exact location",
+        "difficulty": "easy",
+        "relatedWord": "Google Maps",
+        "relatedHint": "App that gives turn-by-turn directions"
+      },
+      {
+        "word": "Self-Driving Car",
+        "hint": "Vehicle that steers and brakes without a human driver",
+        "difficulty": "medium",
+        "relatedWord": "Tesla",
+        "relatedHint": "Electric car brand led by Elon Musk"
+      },
+      {
+        "word": "Smart Speaker",
+        "hint": "Voice-activated home device that answers questions and plays music",
+        "difficulty": "easy",
+        "relatedWord": "Alexa",
+        "relatedHint": "Amazon's voice assistant"
+      },
+      {
+        "word": "Keyboard",
+        "hint": "Set of keys used to type into a computer",
+        "difficulty": "easy",
+        "relatedWord": "QWERTY",
+        "relatedHint": "Name of the most common key layout"
+      }
+    ],
+    "Indian Street Food": [
+      {
+        "word": "Vada Pav",
+        "hint": "Spicy potato fritter stuffed inside a soft bun",
+        "difficulty": "easy",
+        "relatedWord": "Chutney",
+        "relatedHint": "Spicy or tangy dip served alongside"
+      },
+      {
+        "word": "Dosa",
+        "hint": "Crispy fermented crepe from South India",
+        "difficulty": "easy",
+        "relatedWord": "Sambar",
+        "relatedHint": "Lentil-vegetable stew served on the side"
+      },
+      {
+        "word": "Pav Bhaji",
+        "hint": "Buttery mashed vegetable curry eaten with soft bread",
+        "difficulty": "easy",
+        "relatedWord": "Butter",
+        "relatedHint": "Golden dairy topping melted on top"
+      },
+      {
+        "word": "Pani Puri",
+        "hint": "Hollow crisp shells filled with spicy flavored water",
+        "difficulty": "easy",
+        "relatedWord": "Golgappa",
+        "relatedHint": "Name for it in North India"
+      },
+      {
+        "word": "Bhel Puri",
+        "hint": "Puffed rice tossed with sev, onions and tangy chutneys",
+        "difficulty": "easy",
+        "relatedWord": "Sev",
+        "relatedHint": "Thin crunchy gram-flour noodles"
+      },
+      {
+        "word": "Samosa",
+        "hint": "Triangular fried pastry stuffed with spiced potatoes",
+        "difficulty": "easy",
+        "relatedWord": "Chai",
+        "relatedHint": "Hot milky tea it is often paired with"
+      },
+      {
+        "word": "Chole Bhature",
+        "hint": "Spiced chickpea curry served with fluffy fried bread",
+        "difficulty": "medium",
+        "relatedWord": "Lassi",
+        "relatedHint": "Thick yogurt drink that cools the meal"
+      },
+      {
+        "word": "Misal Pav",
+        "hint": "Fiery sprouted-bean curry topped with farsan, a Maharashtrian favorite",
+        "difficulty": "medium",
+        "relatedWord": "Farsan",
+        "relatedHint": "Crunchy savory snack mix on top"
+      },
+      {
+        "word": "Jalebi",
+        "hint": "Orange spiral-shaped fried sweet soaked in syrup",
+        "difficulty": "easy",
+        "relatedWord": "Rabri",
+        "relatedHint": "Thickened sweet milk often served together"
+      },
+      {
+        "word": "Kachori",
+        "hint": "Flaky deep-fried ball stuffed with spiced lentils",
+        "difficulty": "medium",
+        "relatedWord": "Aloo Sabzi",
+        "relatedHint": "Potato curry often poured over it"
+      },
+      {
+        "word": "Dahi Puri",
+        "hint": "Crisp shells topped with chilled yogurt and chutneys",
+        "difficulty": "medium",
+        "relatedWord": "Dahi",
+        "relatedHint": "Cooling curd"
+      },
+      {
+        "word": "Aloo Tikki",
+        "hint": "Pan-fried spiced potato patty",
+        "difficulty": "easy",
+        "relatedWord": "Chaat",
+        "relatedHint": "Category of tangy, crunchy street snacks"
+      },
+      {
+        "word": "Momos",
+        "hint": "Steamed dumplings that came from the Himalayan region",
+        "difficulty": "easy",
+        "relatedWord": "Red Chutney",
+        "relatedHint": "Fiery sauce served beside them"
+      },
+      {
+        "word": "Kathi Roll",
+        "hint": "Flatbread wrapped around grilled filling, a Kolkata invention",
+        "difficulty": "medium",
+        "relatedWord": "Paratha",
+        "relatedHint": "Layered flaky flatbread"
+      },
+      {
+        "word": "Idli",
+        "hint": "Soft steamed rice-and-lentil cake",
+        "difficulty": "easy",
+        "relatedWord": "Coconut Chutney",
+        "relatedHint": "Creamy white dip from grated coconut"
+      },
+      {
+        "word": "Dabeli",
+        "hint": "Sweet-spicy potato mix stuffed in a bun with peanuts, from Kutch",
+        "difficulty": "medium",
+        "relatedWord": "Pomegranate",
+        "relatedHint": "Ruby seeds sprinkled on top"
+      },
+      {
+        "word": "Sev Puri",
+        "hint": "Flat crisp discs topped with potato, onion and chutneys",
+        "difficulty": "medium",
+        "relatedWord": "Papdi",
+        "relatedHint": "Flat crunchy base wafer"
+      },
+      {
+        "word": "Pakora",
+        "hint": "Vegetables dipped in gram-flour batter and deep fried",
+        "difficulty": "easy",
+        "relatedWord": "Monsoon",
+        "relatedHint": "Rainy season when cravings peak"
+      },
+      {
+        "word": "Ragda Pattice",
+        "hint": "Potato cutlets served in a white pea curry",
+        "difficulty": "medium",
+        "relatedWord": "Tamarind Chutney",
+        "relatedHint": "Sweet-sour brown sauce"
+      },
+      {
+        "word": "Kulfi",
+        "hint": "Dense frozen dessert on a stick, India's ice cream cousin",
+        "difficulty": "easy",
+        "relatedWord": "Pistachio",
+        "relatedHint": "Green nut commonly used for flavor"
+      },
+      {
+        "word": "Bhutta",
+        "hint": "Corn cob roasted on coals and rubbed with lime and masala",
+        "difficulty": "medium",
+        "relatedWord": "Lemon",
+        "relatedHint": "Sour citrus squeezed on top"
+      },
+      {
+        "word": "Gola",
+        "hint": "Shaved ice on a stick drenched in colorful syrup",
+        "difficulty": "medium",
+        "relatedWord": "Kala Khatta",
+        "relatedHint": "Dark purple tangy flavor"
+      },
+      {
+        "word": "Poha",
+        "hint": "Flattened rice cooked with turmeric, peanuts and curry leaves",
+        "difficulty": "medium",
+        "relatedWord": "Jeera",
+        "relatedHint": "Brown seeds tempered in hot oil"
+      },
+      {
+        "word": "Medu Vada",
+        "hint": "Fluffy lentil doughnut with a crispy shell",
+        "difficulty": "medium",
+        "relatedWord": "Filter Coffee",
+        "relatedHint": "Strong South Indian brew with milk"
+      },
+      {
+        "word": "Frankie",
+        "hint": "Spiced rolled wrap popular in Mumbai",
+        "difficulty": "hard",
+        "relatedWord": "Tikka",
+        "relatedHint": "Marinated and grilled chunks"
+      }
+    ],
+    "Countries & Cities": [
+      {
+        "word": "Tokyo",
+        "hint": "Neon-lit capital of Japan",
+        "difficulty": "easy",
+        "relatedWord": "Shibuya Crossing",
+        "relatedHint": "World's busiest pedestrian intersection"
+      },
+      {
+        "word": "Seoul",
+        "hint": "Capital of South Korea famous for K-pop and skyscrapers",
+        "difficulty": "easy",
+        "relatedWord": "Kimchi",
+        "relatedHint": "Spicy fermented cabbage side dish"
+      },
+      {
+        "word": "Mumbai",
+        "hint": "India's financial capital by the Arabian Sea",
+        "difficulty": "easy",
+        "relatedWord": "Gateway of India",
+        "relatedHint": "Arch monument on the waterfront"
+      },
+      {
+        "word": "Paris",
+        "hint": "French capital known as the city of love",
+        "difficulty": "easy",
+        "relatedWord": "Eiffel Tower",
+        "relatedHint": "Iron lattice landmark on the Champ de Mars"
+      },
+      {
+        "word": "New York",
+        "hint": "The Big Apple, home of Times Square",
+        "difficulty": "easy",
+        "relatedWord": "Statue of Liberty",
+        "relatedHint": "Green torch-bearing lady in the harbor"
+      },
+      {
+        "word": "Dubai",
+        "hint": "Desert city of record-breaking skyscrapers",
+        "difficulty": "easy",
+        "relatedWord": "Burj Khalifa",
+        "relatedHint": "Tallest building in the world"
+      },
+      {
+        "word": "London",
+        "hint": "British capital with red buses and a famous clock tower",
+        "difficulty": "easy",
+        "relatedWord": "Big Ben",
+        "relatedHint": "Giant bell inside the clock tower"
+      },
+      {
+        "word": "Rome",
+        "hint": "Eternal city of ancient emperors",
+        "difficulty": "easy",
+        "relatedWord": "Colosseum",
+        "relatedHint": "Ancient oval arena for gladiator fights"
+      },
+      {
+        "word": "Sydney",
+        "hint": "Australian harbor city",
+        "difficulty": "medium",
+        "relatedWord": "Opera House",
+        "relatedHint": "Sail-shaped performing arts building"
+      },
+      {
+        "word": "Cairo",
+        "hint": "Capital on the Nile near ancient tombs",
+        "difficulty": "medium",
+        "relatedWord": "Pyramids",
+        "relatedHint": "Giant stone tombs of pharaohs"
+      },
+      {
+        "word": "Rio de Janeiro",
+        "hint": "Brazilian city of beaches and a famous carnival",
+        "difficulty": "medium",
+        "relatedWord": "Christ the Redeemer",
+        "relatedHint": "Huge statue with open arms on a mountain"
+      },
+      {
+        "word": "Bangkok",
+        "hint": "Thai capital known for floating markets and tuk-tuks",
+        "difficulty": "medium",
+        "relatedWord": "Pad Thai",
+        "relatedHint": "Stir-fried noodle dish"
+      },
+      {
+        "word": "Singapore",
+        "hint": "Clean island city-state at the tip of Malaysia",
+        "difficulty": "medium",
+        "relatedWord": "Merlion",
+        "relatedHint": "Half-fish, half-lion mascot"
+      },
+      {
+        "word": "Venice",
+        "hint": "Italian city built on canals",
+        "difficulty": "medium",
+        "relatedWord": "Gondola",
+        "relatedHint": "Traditional rowed boat"
+      },
+      {
+        "word": "Istanbul",
+        "hint": "City that spans two continents",
+        "difficulty": "medium",
+        "relatedWord": "Hagia Sophia",
+        "relatedHint": "Domed landmark that was a church and a mosque"
+      },
+      {
+        "word": "Delhi",
+        "hint": "India's capital with the Red Fort and India Gate",
+        "difficulty": "easy",
+        "relatedWord": "Qutub Minar",
+        "relatedHint": "Tall red sandstone minaret"
+      },
+      {
+        "word": "Jaipur",
+        "hint": "Pink City of Rajasthan",
+        "difficulty": "medium",
+        "relatedWord": "Hawa Mahal",
+        "relatedHint": "Palace of Winds with a honeycomb facade"
+      },
+      {
+        "word": "Goa",
+        "hint": "Indian coastal state famous for beaches and nightlife",
+        "difficulty": "easy",
+        "relatedWord": "Portuguese",
+        "relatedHint": "European rulers who colonized it for centuries"
+      },
+      {
+        "word": "Kyoto",
+        "hint": "Old Japanese capital filled with temples and geishas",
+        "difficulty": "medium",
+        "relatedWord": "Cherry Blossom",
+        "relatedHint": "Pink spring flowers"
+      },
+      {
+        "word": "Moscow",
+        "hint": "Russian capital with onion-domed cathedrals",
+        "difficulty": "medium",
+        "relatedWord": "Red Square",
+        "relatedHint": "Famous plaza beside the Kremlin"
+      },
+      {
+        "word": "Toronto",
+        "hint": "Largest city of Canada",
+        "difficulty": "medium",
+        "relatedWord": "CN Tower",
+        "relatedHint": "Tall concrete communications tower"
+      },
+      {
+        "word": "Switzerland",
+        "hint": "Alpine country known for chocolate and watches",
+        "difficulty": "medium",
+        "relatedWord": "Alps",
+        "relatedHint": "Snowy mountain range"
+      },
+      {
+        "word": "Maldives",
+        "hint": "Island nation of overwater villas",
+        "difficulty": "medium",
+        "relatedWord": "Atoll",
+        "relatedHint": "Ring-shaped coral island"
+      },
+      {
+        "word": "Egypt",
+        "hint": "Land of pharaohs and the Sphinx",
+        "difficulty": "easy",
+        "relatedWord": "Mummy",
+        "relatedHint": "Preserved body wrapped in cloth"
+      },
+      {
+        "word": "Brazil",
+        "hint": "South American football powerhouse",
+        "difficulty": "easy",
+        "relatedWord": "Amazon Rainforest",
+        "relatedHint": "World's largest tropical forest"
+      }
+    ],
+    "School Life": [
+      {
+        "word": "Homework",
+        "hint": "Tasks teachers send home to finish at night",
+        "difficulty": "easy",
+        "relatedWord": "Notebook",
+        "relatedHint": "Where you write it down"
+      },
+      {
+        "word": "Attendance",
+        "hint": "Teacher calls names to check who is present",
+        "difficulty": "easy",
+        "relatedWord": "Proxy",
+        "relatedHint": "Saying 'present' for a friend who is absent"
+      },
+      {
+        "word": "Exam",
+        "hint": "Stressful test of what you have learned",
+        "difficulty": "easy",
+        "relatedWord": "Admit Card",
+        "relatedHint": "Paper you need to enter the hall"
+      },
+      {
+        "word": "Recess",
+        "hint": "Break when everyone runs to play",
+        "difficulty": "easy",
+        "relatedWord": "Playground",
+        "relatedHint": "Open area with swings and slides"
+      },
+      {
+        "word": "Principal",
+        "hint": "Head of the entire school",
+        "difficulty": "easy",
+        "relatedWord": "Office",
+        "relatedHint": "Room students fear being called to"
+      },
+      {
+        "word": "Report Card",
+        "hint": "Paper that shows your grades and gets signed by parents",
+        "difficulty": "easy",
+        "relatedWord": "Rank",
+        "relatedHint": "Position compared with classmates"
+      },
+      {
+        "word": "Backbencher",
+        "hint": "Student who prefers the last row",
+        "difficulty": "easy",
+        "relatedWord": "Front Row",
+        "relatedHint": "Seats favored by serious learners"
+      },
+      {
+        "word": "Tiffin",
+        "hint": "Box carrying your lunch",
+        "difficulty": "easy",
+        "relatedWord": "Water Bottle",
+        "relatedHint": "Container you carry to stay hydrated"
+      },
+      {
+        "word": "Detention",
+        "hint": "Staying after hours as punishment",
+        "difficulty": "medium",
+        "relatedWord": "Warning",
+        "relatedHint": "Notice before things get worse"
+      },
+      {
+        "word": "Assembly",
+        "hint": "Morning gathering with prayer and announcements",
+        "difficulty": "medium",
+        "relatedWord": "Pledge",
+        "relatedHint": "Oath recited standing in line"
+      },
+      {
+        "word": "Uniform",
+        "hint": "Same outfit worn by every student",
+        "difficulty": "easy",
+        "relatedWord": "Tie",
+        "relatedHint": "Neckwear accessory with it"
+      },
+      {
+        "word": "Timetable",
+        "hint": "Chart showing which subject comes when",
+        "difficulty": "easy",
+        "relatedWord": "Period",
+        "relatedHint": "One slot of class time"
+      },
+      {
+        "word": "Bunking Class",
+        "hint": "Secretly skipping a lesson",
+        "difficulty": "medium",
+        "relatedWord": "Canteen",
+        "relatedHint": "Place to hide with snacks"
+      },
+      {
+        "word": "Sports Day",
+        "hint": "Annual event of races and relay teams",
+        "difficulty": "medium",
+        "relatedWord": "Medal",
+        "relatedHint": "Award worn around the neck"
+      },
+      {
+        "word": "Annual Day",
+        "hint": "Yearly function with dances and plays",
+        "difficulty": "medium",
+        "relatedWord": "Stage",
+        "relatedHint": "Platform where performers stand"
+      },
+      {
+        "word": "Teacher's Day",
+        "hint": "Celebration where students honor their mentors",
+        "difficulty": "medium",
+        "relatedWord": "Greeting Card",
+        "relatedHint": "Folded note with a handwritten message"
+      },
+      {
+        "word": "Chalk",
+        "hint": "White stick used to write on a blackboard",
+        "difficulty": "easy",
+        "relatedWord": "Duster",
+        "relatedHint": "Cloth block to erase the board"
+      },
+      {
+        "word": "Syllabus",
+        "hint": "List of topics you must study this year",
+        "difficulty": "medium",
+        "relatedWord": "Textbook",
+        "relatedHint": "Heavy book that covers it"
+      },
+      {
+        "word": "Science Lab",
+        "hint": "Room with beakers and experiments",
+        "difficulty": "medium",
+        "relatedWord": "Practical",
+        "relatedHint": "Hands-on exam for experiments"
+      },
+      {
+        "word": "Tuition",
+        "hint": "Extra classes after school hours",
+        "difficulty": "easy",
+        "relatedWord": "Coaching",
+        "relatedHint": "Intensive classes for competitive exams"
+      },
+      {
+        "word": "Topper",
+        "hint": "Student who scores the highest marks",
+        "difficulty": "easy",
+        "relatedWord": "Scholarship",
+        "relatedHint": "Money awarded for academic merit"
+      },
+      {
+        "word": "Cheat Sheet",
+        "hint": "Tiny secret paper hidden before a test",
+        "difficulty": "medium",
+        "relatedWord": "Invigilator",
+        "relatedHint": "Person who watches over the exam hall"
+      },
+      {
+        "word": "Parent-Teacher Meeting",
+        "hint": "Event parents dread because of what teachers might say",
+        "difficulty": "hard",
+        "relatedWord": "Feedback",
+        "relatedHint": "Comments about how you are doing"
+      },
+      {
+        "word": "School Bus",
+        "hint": "Yellow vehicle that picks up kids each morning",
+        "difficulty": "easy",
+        "relatedWord": "Conductor",
+        "relatedHint": "Staff who helps kids onboard"
+      },
+      {
+        "word": "Farewell",
+        "hint": "Emotional goodbye party for the final-year batch",
+        "difficulty": "hard",
+        "relatedWord": "Yearbook",
+        "relatedHint": "Memory book with photos and signatures"
+      }
+    ],
+    "Sports": [
+      {
+        "word": "Cricket",
+        "hint": "Bat-and-ball game loved across India",
+        "difficulty": "easy",
+        "relatedWord": "Wicket",
+        "relatedHint": "Three stumps the bowler targets"
+      },
+      {
+        "word": "Football",
+        "hint": "World's most popular sport played with feet",
+        "difficulty": "easy",
+        "relatedWord": "Goalkeeper",
+        "relatedHint": "Only player allowed to use hands"
+      },
+      {
+        "word": "Badminton",
+        "hint": "Racket sport played with a feathered projectile",
+        "difficulty": "easy",
+        "relatedWord": "Shuttlecock",
+        "relatedHint": "The feathered projectile"
+      },
+      {
+        "word": "Kabaddi",
+        "hint": "Traditional contact sport where a raider holds his breath",
+        "difficulty": "medium",
+        "relatedWord": "Pro Kabaddi League",
+        "relatedHint": "Popular Indian league for this sport"
+      },
+      {
+        "word": "Tennis",
+        "hint": "Racket sport played on grass, clay or hard courts",
+        "difficulty": "easy",
+        "relatedWord": "Wimbledon",
+        "relatedHint": "Oldest Grand Slam in London"
+      },
+      {
+        "word": "Hockey",
+        "hint": "Sport with sticks and a small ball, India's national game",
+        "difficulty": "easy",
+        "relatedWord": "Dhyan Chand",
+        "relatedHint": "Legendary Indian player nicknamed The Wizard"
+      },
+      {
+        "word": "Basketball",
+        "hint": "Players dribble and shoot into an elevated ring",
+        "difficulty": "easy",
+        "relatedWord": "Slam Dunk",
+        "relatedHint": "Powerful shot jammed down through the hoop"
+      },
+      {
+        "word": "Wrestling",
+        "hint": "Combat sport of pinning your opponent to the mat",
+        "difficulty": "easy",
+        "relatedWord": "Akhada",
+        "relatedHint": "Traditional Indian training ground"
+      },
+      {
+        "word": "Chess",
+        "hint": "Board game of kings, queens and tactics",
+        "difficulty": "easy",
+        "relatedWord": "Checkmate",
+        "relatedHint": "Final trapped position that ends the game"
+      },
+      {
+        "word": "Swimming",
+        "hint": "Racing through water in lanes",
+        "difficulty": "easy",
+        "relatedWord": "Butterfly Stroke",
+        "relatedHint": "Style with both arms moving together"
+      },
+      {
+        "word": "Boxing",
+        "hint": "Ring sport of padded fists",
+        "difficulty": "easy",
+        "relatedWord": "Knockout",
+        "relatedHint": "Win when opponent cannot continue"
+      },
+      {
+        "word": "Volleyball",
+        "hint": "Teams hit a ball over a high net",
+        "difficulty": "easy",
+        "relatedWord": "Spike",
+        "relatedHint": "Powerful downward hit"
+      },
+      {
+        "word": "Archery",
+        "hint": "Shooting at a round target with a bow",
+        "difficulty": "medium",
+        "relatedWord": "Bullseye",
+        "relatedHint": "Center of the target"
+      },
+      {
+        "word": "Table Tennis",
+        "hint": "Indoor game with tiny paddles and a light ball",
+        "difficulty": "medium",
+        "relatedWord": "Ping Pong",
+        "relatedHint": "Nickname of this game"
+      },
+      {
+        "word": "Golf",
+        "hint": "Slow outdoor game of hitting a ball into distant holes",
+        "difficulty": "medium",
+        "relatedWord": "Birdie",
+        "relatedHint": "One stroke under par"
+      },
+      {
+        "word": "Formula 1",
+        "hint": "Open-wheel racing at insane speeds",
+        "difficulty": "medium",
+        "relatedWord": "Pit Stop",
+        "relatedHint": "Quick tire change during a race"
+      },
+      {
+        "word": "Skateboarding",
+        "hint": "Board with four wheels used for tricks",
+        "difficulty": "medium",
+        "relatedWord": "Kickflip",
+        "relatedHint": "Trick where the board spins under your feet"
+      },
+      {
+        "word": "Javelin Throw",
+        "hint": "Athletics event of hurling a long spear",
+        "difficulty": "medium",
+        "relatedWord": "Neeraj Chopra",
+        "relatedHint": "Indian gold medalist in this event"
+      },
+      {
+        "word": "Kho Kho",
+        "hint": "Indian tag game where chasers sit in a line",
+        "difficulty": "hard",
+        "relatedWord": "Chaser",
+        "relatedHint": "Player trying to touch the runners"
+      },
+      {
+        "word": "Baseball",
+        "hint": "Bat-and-ball game with innings and a diamond",
+        "difficulty": "medium",
+        "relatedWord": "Home Run",
+        "relatedHint": "Hit that clears the fence"
+      },
+      {
+        "word": "Rugby",
+        "hint": "Rough team sport played with an oval ball",
+        "difficulty": "hard",
+        "relatedWord": "Scrum",
+        "relatedHint": "Group huddle to restart play"
+      },
+      {
+        "word": "Cycling",
+        "hint": "Race on two wheels powered by pedals",
+        "difficulty": "easy",
+        "relatedWord": "Tour de France",
+        "relatedHint": "Famous multi-week race across France"
+      },
+      {
+        "word": "Weightlifting",
+        "hint": "Lifting heavy barbells overhead",
+        "difficulty": "medium",
+        "relatedWord": "Snatch",
+        "relatedHint": "Lift raising the bar in one motion"
+      },
+      {
+        "word": "Gymnastics",
+        "hint": "Flips, beam routines and floor exercises",
+        "difficulty": "medium",
+        "relatedWord": "Balance Beam",
+        "relatedHint": "Narrow plank athletes perform on"
+      },
+      {
+        "word": "Marathon",
+        "hint": "Grueling long-distance run of over forty kilometers",
+        "difficulty": "easy",
+        "relatedWord": "Finish Line",
+        "relatedHint": "Where the race ends"
+      }
+    ],
+    "Brands & Products": [
+      {
+        "word": "iPhone",
+        "hint": "Apple's flagship smartphone",
+        "difficulty": "easy",
+        "relatedWord": "Siri",
+        "relatedHint": "Its built-in voice assistant"
+      },
+      {
+        "word": "PlayStation",
+        "hint": "Sony's gaming console",
+        "difficulty": "easy",
+        "relatedWord": "DualSense",
+        "relatedHint": "Controller with adaptive triggers"
+      },
+      {
+        "word": "LEGO",
+        "hint": "Colorful interlocking plastic bricks from Denmark",
+        "difficulty": "easy",
+        "relatedWord": "Minifigure",
+        "relatedHint": "Tiny yellow-headed figure"
+      },
+      {
+        "word": "Nike",
+        "hint": "Sportswear brand named after a Greek goddess",
+        "difficulty": "easy",
+        "relatedWord": "Swoosh",
+        "relatedHint": "Its checkmark-style logo"
+      },
+      {
+        "word": "Coca-Cola",
+        "hint": "Fizzy red-labeled soft drink",
+        "difficulty": "easy",
+        "relatedWord": "Pepsi",
+        "relatedHint": "Its blue-logo rival"
+      },
+      {
+        "word": "Tesla",
+        "hint": "Electric car company led by Elon Musk",
+        "difficulty": "easy",
+        "relatedWord": "Cybertruck",
+        "relatedHint": "Angular stainless-steel pickup"
+      },
+      {
+        "word": "Netflix",
+        "hint": "Streaming service with a red logo",
+        "difficulty": "easy",
+        "relatedWord": "Binge-watch",
+        "relatedHint": "Watching many episodes in one go"
+      },
+      {
+        "word": "Amazon",
+        "hint": "World's largest online store",
+        "difficulty": "easy",
+        "relatedWord": "Prime",
+        "relatedHint": "Membership with fast delivery"
+      },
+      {
+        "word": "Starbucks",
+        "hint": "Coffee chain with a green mermaid logo",
+        "difficulty": "easy",
+        "relatedWord": "Frappuccino",
+        "relatedHint": "Blended iced coffee drink"
+      },
+      {
+        "word": "McDonald's",
+        "hint": "Fast food chain with golden arches",
+        "difficulty": "easy",
+        "relatedWord": "Big Mac",
+        "relatedHint": "Double-patty burger with special sauce"
+      },
+      {
+        "word": "Samsung",
+        "hint": "Korean giant making phones and TVs",
+        "difficulty": "easy",
+        "relatedWord": "Galaxy",
+        "relatedHint": "Its flagship phone series"
+      },
+      {
+        "word": "Adidas",
+        "hint": "German sportswear with three stripes",
+        "difficulty": "easy",
+        "relatedWord": "Puma",
+        "relatedHint": "Rival founded by the founder's brother"
+      },
+      {
+        "word": "Google",
+        "hint": "Search engine giant",
+        "difficulty": "easy",
+        "relatedWord": "Chrome",
+        "relatedHint": "Its popular web browser"
+      },
+      {
+        "word": "Instagram",
+        "hint": "Photo and reels app owned by Meta",
+        "difficulty": "easy",
+        "relatedWord": "Story",
+        "relatedHint": "Post that disappears after 24 hours"
+      },
+      {
+        "word": "Rolex",
+        "hint": "Swiss luxury watchmaker with a crown logo",
+        "difficulty": "medium",
+        "relatedWord": "Submariner",
+        "relatedHint": "Famous diver's model"
+      },
+      {
+        "word": "Maggi",
+        "hint": "Two-minute instant noodles loved by hostel students",
+        "difficulty": "easy",
+        "relatedWord": "Tastemaker",
+        "relatedHint": "Spice sachet in the packet"
+      },
+      {
+        "word": "Amul",
+        "hint": "Indian dairy brand with a mascot girl in polka dots",
+        "difficulty": "medium",
+        "relatedWord": "Butter",
+        "relatedHint": "Product with its famous 'utterly butterly' slogan"
+      },
+      {
+        "word": "Parle-G",
+        "hint": "India's best-selling glucose biscuit",
+        "difficulty": "easy",
+        "relatedWord": "Chai",
+        "relatedHint": "Beverage biscuits are dunked in"
+      },
+      {
+        "word": "Tata",
+        "hint": "Indian conglomerate known for salt, cars and steel",
+        "difficulty": "medium",
+        "relatedWord": "Ratan Tata",
+        "relatedHint": "Late chairman admired for philanthropy"
+      },
+      {
+        "word": "Nintendo Switch",
+        "hint": "Console that works both docked and handheld",
+        "difficulty": "medium",
+        "relatedWord": "Joy-Con",
+        "relatedHint": "Detachable controllers"
+      },
+      {
+        "word": "AirPods",
+        "hint": "White wireless earbuds from Apple",
+        "difficulty": "easy",
+        "relatedWord": "Charging Case",
+        "relatedHint": "Little box that recharges them"
+      },
+      {
+        "word": "Spotify",
+        "hint": "Green music streaming app",
+        "difficulty": "easy",
+        "relatedWord": "Wrapped",
+        "relatedHint": "Yearly summary of what you listened to"
+      },
+      {
+        "word": "Oreo",
+        "hint": "Sandwich cookie you twist, lick and dunk",
+        "difficulty": "easy",
+        "relatedWord": "Milk",
+        "relatedHint": "White drink it is dunked in"
+      },
+      {
+        "word": "Red Bull",
+        "hint": "Energy drink that claims to give wings",
+        "difficulty": "medium",
+        "relatedWord": "Caffeine",
+        "relatedHint": "Stimulant that keeps you awake"
+      },
+      {
+        "word": "Ferrari",
+        "hint": "Italian supercar maker with a prancing horse",
+        "difficulty": "medium",
+        "relatedWord": "Maranello",
+        "relatedHint": "Italian town where it is based"
+      }
+    ],
+    "Everyday Objects": [
+      {
+        "word": "Pillow",
+        "hint": "Soft cushion you rest your head on",
+        "difficulty": "easy",
+        "relatedWord": "Blanket",
+        "relatedHint": "Warm cover for your body"
+      },
+      {
+        "word": "Mirror",
+        "hint": "Reflective glass showing your face",
+        "difficulty": "easy",
+        "relatedWord": "Comb",
+        "relatedHint": "Teeth-edged tool for hair"
+      },
+      {
+        "word": "Toothbrush",
+        "hint": "Bristled stick used twice a day",
+        "difficulty": "easy",
+        "relatedWord": "Toothpaste",
+        "relatedHint": "Minty gel that goes on it"
+      },
+      {
+        "word": "Umbrella",
+        "hint": "Folding canopy used against rain",
+        "difficulty": "easy",
+        "relatedWord": "Raincoat",
+        "relatedHint": "Waterproof jacket"
+      },
+      {
+        "word": "Key",
+        "hint": "Small metal item that opens locks",
+        "difficulty": "easy",
+        "relatedWord": "Keychain",
+        "relatedHint": "Ring that holds several of them"
+      },
+      {
+        "word": "Scissors",
+        "hint": "Two-bladed tool for cutting paper",
+        "difficulty": "easy",
+        "relatedWord": "Paper",
+        "relatedHint": "Thin sheet it slices"
+      },
+      {
+        "word": "Spoon",
+        "hint": "Utensil for scooping soup",
+        "difficulty": "easy",
+        "relatedWord": "Fork",
+        "relatedHint": "Pronged eating tool"
+      },
+      {
+        "word": "Clock",
+        "hint": "Round device that shows the hour",
+        "difficulty": "easy",
+        "relatedWord": "Alarm",
+        "relatedHint": "Loud sound that wakes you up"
+      },
+      {
+        "word": "Backpack",
+        "hint": "Bag carried on your shoulders",
+        "difficulty": "easy",
+        "relatedWord": "Zipper",
+        "relatedHint": "Toothed fastener that closes it"
+      },
+      {
+        "word": "Remote Control",
+        "hint": "Handheld device that changes channels from afar",
+        "difficulty": "easy",
+        "relatedWord": "Batteries",
+        "relatedHint": "Small power cells inside"
+      },
+      {
+        "word": "Charger",
+        "hint": "Cable and adapter that revives a dead phone",
+        "difficulty": "easy",
+        "relatedWord": "Socket",
+        "relatedHint": "Wall hole you plug it into"
+      },
+      {
+        "word": "Bucket",
+        "hint": "Round container with a handle for carrying water",
+        "difficulty": "easy",
+        "relatedWord": "Mug",
+        "relatedHint": "Small plastic scoop used in the bathroom"
+      },
+      {
+        "word": "Broom",
+        "hint": "Long stick with bristles for sweeping",
+        "difficulty": "easy",
+        "relatedWord": "Dustpan",
+        "relatedHint": "Flat tray that collects the dirt"
+      },
+      {
+        "word": "Candle",
+        "hint": "Wax stick with a wick that gives light",
+        "difficulty": "easy",
+        "relatedWord": "Matchbox",
+        "relatedHint": "Small box for lighting flames"
+      },
+      {
+        "word": "Wallet",
+        "hint": "Folding holder for cash and cards",
+        "difficulty": "easy",
+        "relatedWord": "Purse",
+        "relatedHint": "Similar bag often carried by women"
+      },
+      {
+        "word": "Spectacles",
+        "hint": "Frames with lenses to help you see",
+        "difficulty": "medium",
+        "relatedWord": "Sunglasses",
+        "relatedHint": "Dark lenses for bright days"
+      },
+      {
+        "word": "Ladder",
+        "hint": "Rungs used to climb up high",
+        "difficulty": "easy",
+        "relatedWord": "Stool",
+        "relatedHint": "Small seat or step"
+      },
+      {
+        "word": "Towel",
+        "hint": "Cloth to dry yourself after a bath",
+        "difficulty": "easy",
+        "relatedWord": "Soap",
+        "relatedHint": "Bar used for washing"
+      },
+      {
+        "word": "Ceiling Fan",
+        "hint": "Rotating blades that cool the room",
+        "difficulty": "easy",
+        "relatedWord": "Regulator",
+        "relatedHint": "Knob that changes its speed"
+      },
+      {
+        "word": "Kettle",
+        "hint": "Container used for boiling water",
+        "difficulty": "medium",
+        "relatedWord": "Teabag",
+        "relatedHint": "Small pouch of leaves"
+      },
+      {
+        "word": "Hanger",
+        "hint": "Hook-shaped item for hanging clothes",
+        "difficulty": "medium",
+        "relatedWord": "Wardrobe",
+        "relatedHint": "Large cupboard for clothes"
+      },
+      {
+        "word": "Torch",
+        "hint": "Handheld light for dark places",
+        "difficulty": "easy",
+        "relatedWord": "Inverter",
+        "relatedHint": "Backup device for power cuts"
+      },
+      {
+        "word": "Stapler",
+        "hint": "Office tool that binds pages with metal",
+        "difficulty": "medium",
+        "relatedWord": "Paper Clip",
+        "relatedHint": "Bent wire that holds sheets"
+      },
+      {
+        "word": "Lunchbox",
+        "hint": "Container for packed meals",
+        "difficulty": "easy",
+        "relatedWord": "Napkin",
+        "relatedHint": "Thin paper for wiping hands"
+      },
+      {
+        "word": "Doormat",
+        "hint": "Rug placed at the entrance to wipe your shoes",
+        "difficulty": "medium",
+        "relatedWord": "Slippers",
+        "relatedHint": "Light footwear worn at home"
+      }
+    ],
+    "Science": [
+      {
+        "word": "Black Hole",
+        "hint": "Region of space where gravity is so strong even light cannot escape",
+        "difficulty": "easy",
+        "relatedWord": "Event Horizon",
+        "relatedHint": "Point of no return around it"
+      },
+      {
+        "word": "Gravity",
+        "hint": "Force that keeps your feet on the ground",
+        "difficulty": "easy",
+        "relatedWord": "Newton",
+        "relatedHint": "Scientist linked to a falling apple"
+      },
+      {
+        "word": "Atom",
+        "hint": "Tiny building block of all matter",
+        "difficulty": "easy",
+        "relatedWord": "Molecule",
+        "relatedHint": "Group of them bonded together"
+      },
+      {
+        "word": "DNA",
+        "hint": "Double-helix molecule that carries genetic instructions",
+        "difficulty": "easy",
+        "relatedWord": "Gene",
+        "relatedHint": "Segment that codes for a trait"
+      },
+      {
+        "word": "Photosynthesis",
+        "hint": "How plants turn sunlight into food",
+        "difficulty": "medium",
+        "relatedWord": "Chlorophyll",
+        "relatedHint": "Green pigment in leaves"
+      },
+      {
+        "word": "Magnet",
+        "hint": "Object that attracts iron",
+        "difficulty": "easy",
+        "relatedWord": "Compass",
+        "relatedHint": "Needle that points north"
+      },
+      {
+        "word": "Volcano",
+        "hint": "Mountain that erupts with molten rock",
+        "difficulty": "easy",
+        "relatedWord": "Lava",
+        "relatedHint": "Hot liquid rock flowing out"
+      },
+      {
+        "word": "Solar Eclipse",
+        "hint": "When the Moon blocks the Sun",
+        "difficulty": "medium",
+        "relatedWord": "Corona",
+        "relatedHint": "Glowing outer ring of the Sun"
+      },
+      {
+        "word": "Evolution",
+        "hint": "Gradual change of species over generations",
+        "difficulty": "medium",
+        "relatedWord": "Darwin",
+        "relatedHint": "Scientist who wrote On the Origin of Species"
+      },
+      {
+        "word": "Electron",
+        "hint": "Negatively charged particle orbiting a nucleus",
+        "difficulty": "medium",
+        "relatedWord": "Proton",
+        "relatedHint": "Positively charged counterpart"
+      },
+      {
+        "word": "Big Bang",
+        "hint": "Theory about how the universe began",
+        "difficulty": "medium",
+        "relatedWord": "Expansion",
+        "relatedHint": "Ongoing stretching of the universe"
+      },
+      {
+        "word": "Periodic Table",
+        "hint": "Chart arranging all known elements",
+        "difficulty": "medium",
+        "relatedWord": "Mendeleev",
+        "relatedHint": "Russian chemist who created it"
+      },
+      {
+        "word": "Telescope",
+        "hint": "Instrument that brings distant stars closer",
+        "difficulty": "easy",
+        "relatedWord": "Galileo",
+        "relatedHint": "Italian astronomer who used one early"
+      },
+      {
+        "word": "Rainbow",
+        "hint": "Colorful arc after rain",
+        "difficulty": "easy",
+        "relatedWord": "Prism",
+        "relatedHint": "Glass shape that splits light"
+      },
+      {
+        "word": "Vaccine",
+        "hint": "Shot that trains the body to fight disease",
+        "difficulty": "easy",
+        "relatedWord": "Antibody",
+        "relatedHint": "Protein made by the immune system"
+      },
+      {
+        "word": "Microscope",
+        "hint": "Tool used to see tiny cells",
+        "difficulty": "easy",
+        "relatedWord": "Cell",
+        "relatedHint": "Basic unit of life"
+      },
+      {
+        "word": "Ecosystem",
+        "hint": "Community of living things and their environment",
+        "difficulty": "medium",
+        "relatedWord": "Food Chain",
+        "relatedHint": "Sequence of who eats whom"
+      },
+      {
+        "word": "Galaxy",
+        "hint": "Giant collection of stars, gas and dust",
+        "difficulty": "easy",
+        "relatedWord": "Milky Way",
+        "relatedHint": "One that contains our solar system"
+      },
+      {
+        "word": "Friction",
+        "hint": "Force that resists sliding between surfaces",
+        "difficulty": "medium",
+        "relatedWord": "Lubricant",
+        "relatedHint": "Oily substance that reduces it"
+      },
+      {
+        "word": "Radiation",
+        "hint": "Energy travelling as waves or particles",
+        "difficulty": "hard",
+        "relatedWord": "X-ray",
+        "relatedHint": "Medical imaging ray that sees bones"
+      },
+      {
+        "word": "Mitochondria",
+        "hint": "Organelle called the powerhouse of the cell",
+        "difficulty": "hard",
+        "relatedWord": "ATP",
+        "relatedHint": "Energy currency molecule"
+      },
+      {
+        "word": "Neutron Star",
+        "hint": "Dense leftover core of a collapsed star",
+        "difficulty": "hard",
+        "relatedWord": "Supernova",
+        "relatedHint": "Massive stellar explosion"
+      },
+      {
+        "word": "Dark Matter",
+        "hint": "Invisible stuff that makes up most of the universe's mass",
+        "difficulty": "hard",
+        "relatedWord": "Dark Energy",
+        "relatedHint": "Mysterious force driving expansion"
+      },
+      {
+        "word": "Lightning",
+        "hint": "Giant spark from thunderclouds",
+        "difficulty": "easy",
+        "relatedWord": "Thunder",
+        "relatedHint": "Loud boom that follows"
+      },
+      {
+        "word": "Fossil",
+        "hint": "Preserved remains of ancient life in rock",
+        "difficulty": "easy",
+        "relatedWord": "Dinosaur",
+        "relatedHint": "Giant reptile that went extinct"
+      }
+    ],
+    "Music": [
+      {
+        "word": "Singer",
+        "hint": "Performer who uses their voice",
+        "difficulty": "easy",
+        "relatedWord": "Vocalist",
+        "relatedHint": "Another word for the lead voice in a band"
+      },
+      {
+        "word": "Concert",
+        "hint": "Live show with a huge crowd",
+        "difficulty": "easy",
+        "relatedWord": "Ticket",
+        "relatedHint": "Pass required to enter"
+      },
+      {
+        "word": "Headphones",
+        "hint": "Worn over the ears for private listening",
+        "difficulty": "easy",
+        "relatedWord": "Earphones",
+        "relatedHint": "Smaller buds that sit inside the ear"
+      },
+      {
+        "word": "Guitar",
+        "hint": "Six-stringed instrument strummed by rockstars",
+        "difficulty": "easy",
+        "relatedWord": "Pick",
+        "relatedHint": "Small triangular plectrum"
+      },
+      {
+        "word": "Drums",
+        "hint": "Percussion set hit with sticks",
+        "difficulty": "easy",
+        "relatedWord": "Drumstick",
+        "relatedHint": "Wooden tool used to strike them"
+      },
+      {
+        "word": "Piano",
+        "hint": "Instrument with black and white keys",
+        "difficulty": "easy",
+        "relatedWord": "Pedal",
+        "relatedHint": "Foot-operated part that sustains notes"
+      },
+      {
+        "word": "Rapper",
+        "hint": "Artist who speaks lyrics rhythmically over beats",
+        "difficulty": "easy",
+        "relatedWord": "Freestyle",
+        "relatedHint": "Improvised rap without preparation"
+      },
+      {
+        "word": "Playlist",
+        "hint": "Your personalized list of songs",
+        "difficulty": "easy",
+        "relatedWord": "Shuffle",
+        "relatedHint": "Mode that plays tracks randomly"
+      },
+      {
+        "word": "Microphone",
+        "hint": "Device that captures a voice for amplification",
+        "difficulty": "easy",
+        "relatedWord": "Speaker",
+        "relatedHint": "Device that blasts sound out"
+      },
+      {
+        "word": "DJ",
+        "hint": "Person who mixes tracks at parties",
+        "difficulty": "easy",
+        "relatedWord": "Turntable",
+        "relatedHint": "Spinning platter for vinyl"
+      },
+      {
+        "word": "Orchestra",
+        "hint": "Large group of classical musicians",
+        "difficulty": "medium",
+        "relatedWord": "Conductor",
+        "relatedHint": "Person waving a baton"
+      },
+      {
+        "word": "Lyrics",
+        "hint": "Words of a song",
+        "difficulty": "easy",
+        "relatedWord": "Karaoke",
+        "relatedHint": "Sing-along with words on a screen"
+      },
+      {
+        "word": "Harmony",
+        "hint": "Different notes sounding pleasantly together",
+        "difficulty": "medium",
+        "relatedWord": "Chord",
+        "relatedHint": "Three or more notes played together"
+      },
+      {
+        "word": "Violin",
+        "hint": "Small string instrument played with a bow",
+        "difficulty": "medium",
+        "relatedWord": "Cello",
+        "relatedHint": "Larger, deeper cousin held between the knees"
+      },
+      {
+        "word": "Encore",
+        "hint": "Extra song the audience demands at the end",
+        "difficulty": "medium",
+        "relatedWord": "Applause",
+        "relatedHint": "Clapping to show appreciation"
+      },
+      {
+        "word": "Tabla",
+        "hint": "Pair of Indian hand drums",
+        "difficulty": "medium",
+        "relatedWord": "Zakir Hussain",
+        "relatedHint": "Legendary maestro of these drums"
+      },
+      {
+        "word": "Sitar",
+        "hint": "Long-necked Indian string instrument",
+        "difficulty": "medium",
+        "relatedWord": "Ravi Shankar",
+        "relatedHint": "Maestro who introduced it to the West"
+      },
+      {
+        "word": "Melody",
+        "hint": "Tune you hum along to",
+        "difficulty": "easy",
+        "relatedWord": "Rhythm",
+        "relatedHint": "Pattern of beats"
+      },
+      {
+        "word": "Remix",
+        "hint": "New version of a song with changed beats",
+        "difficulty": "easy",
+        "relatedWord": "Cover",
+        "relatedHint": "Song re-sung by someone else"
+      },
+      {
+        "word": "Album",
+        "hint": "Collection of songs released together",
+        "difficulty": "easy",
+        "relatedWord": "Single",
+        "relatedHint": "One track released alone"
+      },
+      {
+        "word": "Auto-Tune",
+        "hint": "Software that corrects vocal pitch",
+        "difficulty": "hard",
+        "relatedWord": "Studio",
+        "relatedHint": "Room where music is recorded"
+      },
+      {
+        "word": "Beatbox",
+        "hint": "Making drum sounds with only your mouth",
+        "difficulty": "medium",
+        "relatedWord": "Hip-Hop",
+        "relatedHint": "Genre rooted in rap and DJing"
+      },
+      {
+        "word": "Harmonium",
+        "hint": "Pump-organ used in bhajans and qawwalis",
+        "difficulty": "hard",
+        "relatedWord": "Bhajan",
+        "relatedHint": "Devotional song"
+      },
+      {
+        "word": "Hurdy-Gurdy",
+        "hint": "A string instrument played with a hand-cranked wheel",
+        "difficulty": "hard",
+        "relatedWord": "Bagpipes",
+        "relatedHint": "A wind instrument using a bag and pipes"
+      },
+      {
+        "word": "Vinyl",
+        "hint": "Retro black disc played with a needle",
+        "difficulty": "medium",
+        "relatedWord": "Gramophone",
+        "relatedHint": "Old machine with a big horn"
+      }
+    ],
+    "Situations": [
+      {
+        "word": "First Date",
+        "hint": "Nervous meeting trying to impress someone special",
+        "difficulty": "easy",
+        "relatedWord": "Butterflies",
+        "relatedHint": "Fluttery feeling in your stomach"
+      },
+      {
+        "word": "Job Interview",
+        "hint": "Moment when you must sell yourself to a panel",
+        "difficulty": "easy",
+        "relatedWord": "Resume",
+        "relatedHint": "Paper listing your qualifications"
+      },
+      {
+        "word": "Awkward Silence",
+        "hint": "Nobody speaks and everyone feels it",
+        "difficulty": "easy",
+        "relatedWord": "Crickets",
+        "relatedHint": "Sound people joke about when it happens"
+      },
+      {
+        "word": "Traffic Jam",
+        "hint": "Vehicles crawl bumper to bumper",
+        "difficulty": "easy",
+        "relatedWord": "Honking",
+        "relatedHint": "Loud horn blaring in frustration"
+      },
+      {
+        "word": "Power Cut",
+        "hint": "Sudden darkness at home",
+        "difficulty": "easy",
+        "relatedWord": "Candle",
+        "relatedHint": "Wax light you reach for"
+      },
+      {
+        "word": "Missed Bus",
+        "hint": "Seeing the vehicle leave just as you arrive",
+        "difficulty": "easy",
+        "relatedWord": "Auto Rickshaw",
+        "relatedHint": "Three-wheeler you take instead"
+      },
+      {
+        "word": "Wrong Number",
+        "hint": "A call meant for someone else reaches you",
+        "difficulty": "medium",
+        "relatedWord": "Sorry",
+        "relatedHint": "Word said before hanging up"
+      },
+      {
+        "word": "Surprise Party",
+        "hint": "Everyone hides until the guest of honor walks in",
+        "difficulty": "easy",
+        "relatedWord": "Balloons",
+        "relatedHint": "Air-filled party decorations"
+      },
+      {
+        "word": "Group Project",
+        "hint": "Everyone is assigned work but only one person does it",
+        "difficulty": "medium",
+        "relatedWord": "Free Rider",
+        "relatedHint": "Member who takes credit without effort"
+      },
+      {
+        "word": "Blind Date",
+        "hint": "Meeting someone you have never seen before",
+        "difficulty": "medium",
+        "relatedWord": "Matchmaker",
+        "relatedHint": "Person who sets it up"
+      },
+      {
+        "word": "Lost Wallet",
+        "hint": "Panic when your pockets feel empty",
+        "difficulty": "medium",
+        "relatedWord": "Lost and Found",
+        "relatedHint": "Counter where missing items may turn up"
+      },
+      {
+        "word": "Stage Fright",
+        "hint": "Fear of performing before an audience",
+        "difficulty": "medium",
+        "relatedWord": "Podium",
+        "relatedHint": "Stand a speaker talks from"
+      },
+      {
+        "word": "Elevator Ride",
+        "hint": "Strangers stuck close in a small metal box",
+        "difficulty": "medium",
+        "relatedWord": "Small Talk",
+        "relatedHint": "Light chat about the weather"
+      },
+      {
+        "word": "Dying Battery",
+        "hint": "Phone shows one percent and a red warning",
+        "difficulty": "easy",
+        "relatedWord": "Power Bank",
+        "relatedHint": "Portable lifesaver for devices"
+      },
+      {
+        "word": "Forgotten Password",
+        "hint": "You cannot get back into your own account",
+        "difficulty": "medium",
+        "relatedWord": "OTP",
+        "relatedHint": "Temporary code sent to your phone"
+      },
+      {
+        "word": "Midnight Snack",
+        "hint": "Sneaking to the kitchen after everyone sleeps",
+        "difficulty": "easy",
+        "relatedWord": "Refrigerator",
+        "relatedHint": "Cold appliance you raid"
+      },
+      {
+        "word": "Spilled Coffee",
+        "hint": "Hot drink ends up on your clothes",
+        "difficulty": "easy",
+        "relatedWord": "Stain",
+        "relatedHint": "Mark that is hard to remove"
+      },
+      {
+        "word": "Waiting Room",
+        "hint": "Place where you sit and flip through old magazines",
+        "difficulty": "medium",
+        "relatedWord": "Token Number",
+        "relatedHint": "Ticket telling you when it is your turn"
+      },
+      {
+        "word": "Running Late",
+        "hint": "Rushing to get somewhere after the start time",
+        "difficulty": "easy",
+        "relatedWord": "Excuse",
+        "relatedHint": "Reason you invent for being delayed"
+      },
+      {
+        "word": "Sleepover",
+        "hint": "Friends spend the night at one house",
+        "difficulty": "easy",
+        "relatedWord": "Pillow Fight",
+        "relatedHint": "Soft battle before bedtime"
+      },
+      {
+        "word": "Road Trip",
+        "hint": "Long drive with snacks and loud music",
+        "difficulty": "easy",
+        "relatedWord": "Pit Stop",
+        "relatedHint": "Short break at a roadside place"
+      },
+      {
+        "word": "Bad Haircut",
+        "hint": "Visit to the salon you regret instantly",
+        "difficulty": "medium",
+        "relatedWord": "Cap",
+        "relatedHint": "Headwear used to hide it"
+      },
+      {
+        "word": "Left on Read",
+        "hint": "Message seen but never answered",
+        "difficulty": "hard",
+        "relatedWord": "Blue Ticks",
+        "relatedHint": "Indicators proving it was viewed"
+      },
+      {
+        "word": "Secret Santa",
+        "hint": "Gift exchange where givers stay anonymous",
+        "difficulty": "medium",
+        "relatedWord": "Chit",
+        "relatedHint": "Folded paper with a name drawn"
+      },
+      {
+        "word": "Stuck in a Lift",
+        "hint": "Doors do not open and you press the emergency button",
+        "difficulty": "hard",
+        "relatedWord": "Claustrophobia",
+        "relatedHint": "Fear of confined spaces"
+      }
+    ]
+  }
+}

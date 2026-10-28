@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#04122b">
+<meta name="description" content="IMPOSTER is an offline hidden-role party game. Bluff, give clues, and find the imposter with friends on one device.">
+<title>IMPOSTER — Offline Party Game</title>
+
+<!-- PWA -->
+<link rel="manifest" href="./manifest.webmanifest">
+
+<link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+
+<meta name="theme-color" content="#04122b">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="IMPOSTER">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
+
+</head>
+<body>
+<div class="ambient" aria-hidden="true"><span class="ambient__orb ambient__orb--violet"></span><span class="ambient__orb ambient__orb--magenta"></span></div>
+<a class="skip-link" href="#main">Skip to game</a>
+
+<header class="app-header">
+  <button class="app-header__brand" type="button" data-go="homeScreen" aria-label="Go to home screen">
+    <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2 28 9v14L16 30 4 23V9z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="16" cy="14" r="4" fill="currentColor"/><path d="M9 23c1-4 4-6 7-6s6 2 7 6" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+    <span>IMPOSTER</span>
+  </button>
+  <div class="app-header__actions">
+    <button id="themeToggle" class="icon-button" type="button" aria-pressed="false" aria-label="Light theme">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="5" fill="currentColor"/><path d="M12 1v3M12 20v3M1 12h3M20 12h3M4 4l2 2M18 18l2 2M20 4l-2 2M6 18l-2 2" stroke="currentColor" stroke-width="2"/></svg>
+    </button>
+    <button class="icon-button" type="button" data-go="settingsScreen" aria-label="Settings">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10" stroke="currentColor" stroke-width="2"/><circle cx="16" cy="7" r="2.5" fill="currentColor"/><circle cx="8" cy="17" r="2.5" fill="currentColor"/></svg>
+    </button>
+    <button class="button" id="emojiGameBtn" type="button">Guess the Emoji</button>
+  </div>
+</header>
+
+<main id="main" class="game">
+<!-- CINEMATIC INTRO -->
+<section id="introScreen" class="screen screen--intro is-active" aria-labelledby="introTitle">
+  <div class="intro-stars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="intro-emblem" aria-hidden="true"><span>?</span><i></i></div>
+  <p class="eyebrow">THE PARTY GAME OF BLUFFS</p>
+  <h1 id="introTitle" class="intro-title">TRUST<br><span>NO ONE.</span></h1>
+  <p class="intro-copy">One word. Secret roles. A room full of suspects.</p>
+  <button class="button button--primary intro-cta" type="button" data-go="homeScreen">ENTER THE GAME <span aria-hidden="true">→</span></button>
+  <p class="intro-foot">100% OFFLINE · ONE DEVICE · MAXIMUM CHAOS</p>
+</section>
+<p id="liveStatus" class="sr-only" role="status" aria-live="polite"></p>
+
+<!-- HOME -->
+<section id="homeScreen" class="screen screen--home" aria-labelledby="homeTitle">
+  <div class="home-hero">
+    <svg class="home-hero__sigil" viewBox="0 0 120 120" aria-hidden="true"><path d="M60 6 108 33v54L60 114 12 87V33z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M60 24 92 42v36L60 96 28 78V42z" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/><circle cx="60" cy="52" r="12" fill="currentColor"/><path d="M34 88c3-15 14-22 26-22s23 7 26 22" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+    <h1 id="homeTitle" class="home-hero__title">IMPOSTER</h1>
+    <p class="home-hero__subtitle">Trust no one. Question everything.</p>
+    <div class="feature-chips" aria-label="Game features">
+      <span>✦ 100% Offline</span><span>♟ 3–12 Players</span><span>◈ Secret Roles</span>
+    </div>
+  </div>
+  <nav class="menu" aria-label="Main menu">
+    <button class="button button--primary" type="button" data-go="setupScreen">Start Game</button>
+    <button class="button" type="button" data-go="rulesScreen">How to Play</button>
+    <button class="button" type="button" data-go="leaderboardScreen">Leaderboard</button>
+    <button class="button" type="button" data-go="settingsScreen">Settings</button>
+    <button id="installAppBtn" class="button" type="button" hidden>📲 Install App</button>
+  </nav>
+  <aside class="home-tip panel" aria-label="Quick game guide">
+    <span class="home-tip__icon" aria-hidden="true">⚡</span>
+    <div><strong>Ready to catch a liar?</strong><p>Add your group, pass the phone privately, give clues, then vote. Scores save on this device.</p></div>
+  </aside>
+  <dl class="stat-strip" aria-label="Saved statistics">
+    <div class="stat-strip__item"><dt>Rounds played</dt><dd id="statRounds">0</dd></div>
+    <div class="stat-strip__item"><dt>Top player</dt><dd id="statTop">None yet</dd></div>
+    <div class="stat-strip__item"><dt>Achievements</dt><dd id="statAchievements">0 / 6</dd></div>
+  </dl>
+</section>
+
+<!-- SETUP -->
+<section id="setupScreen" class="screen" aria-labelledby="setupTitle">
+  <button class="button button--ghost nav-back" type="button" data-go="homeScreen">← Back</button>
+  <h2 id="setupTitle" class="screen__title">Build your lobby</h2>
+  <form id="setupForm" class="panel" novalidate>
+    <fieldset class="field-group">
+      <legend>Players <span id="playerCount" class="badge" aria-live="polite">0 / 12</span></legend>
+      <div class="field field--inline">
+        <label for="newPlayerName" class="sr-only">Player name</label>
+        <input id="newPlayerName" name="newPlayerName" class="input" type="text" maxlength="16" autocomplete="off" placeholder="Enter a name">
+        <button id="addPlayerBtn" class="button button--small" type="button">Add Player</button>
+      </div>
+      <ul id="playerList" class="player-list" aria-label="Players in this round"></ul>
+      <p id="playerEmpty" class="empty-state">No players yet. Add at least 3.</p>
+    </fieldset>
+    <div class="field"><label for="impCount">Number of imposters</label><select id="impCount" name="impCount" class="input"></select></div>
+    <div class="field"><label for="category">Word category</label><select id="category" name="category" class="input"></select><small class="field-help">Choose one theme or let Random Mix surprise everyone.</small></div>
+    <div class="field"><label for="gameMode">Game mode</label><select id="gameMode" name="gameMode" class="input">
+      <option value="classic">🎭 Classic — the original game</option>
+      <option value="speed">⚡ Speed Run — 60-second debate</option>
+      <option value="double">🕶 Double Trouble — extra imposter</option>
+      <option value="blind">🌑 Blind Imposter — no hints</option>
+      <option value="chaos">🌀 Total Chaos — random category and difficulty</option>
+      <option value="partners">🤝 Hidden Partners — secret alliances</option>
+      <option value="fakeclue">🧩 Fake Clue — related secret words</option>
+      <option value="lastchance">🎯 Last Chance — final word guess</option>
+    </select><small id="modeHelp" class="field-help">Balanced, classic hidden-role gameplay.</small><p class="mode-preview" id="modePreview" aria-live="polite">Everyone except the imposter receives the same secret word.</p></div>
+    <div class="field"><label for="difficulty">Word difficulty</label><select id="difficulty" name="difficulty" class="input"><option value="chaos">🎲 Any difficulty</option><option value="easy">🟢 Easy — familiar words</option><option value="medium">🟣 Medium — think a little</option><option value="hard">🔴 Hard — tricky clues</option></select><small class="field-help">Random Mix draws from all categories that have words at the selected difficulty.</small></div>
+    <div class="field"><label for="timerOpt">Discussion timer</label>
+      <select id="timerOpt" name="timerOpt" class="input"><option value="60">1 minute</option><option value="120">2 minutes</option><option value="180">3 minutes</option><option value="300">5 minutes</option></select></div>
+    <div class="setup-note"><span aria-hidden="true">🔒</span><p><strong>Pass-the-phone privacy</strong><br>Each player must hold the card to reveal their role. Let go to hide it.</p></div>
+    <label class="toggle" for="hintOpt"><input id="hintOpt" name="hintOpt" type="checkbox"><span>Give imposters a vague hint</span></label>
+    <div class="setup-note setup-note--subtle"><span aria-hidden="true">🎲</span><p><strong>Random Mix</strong><br>Mixes eligible categories; words should not repeat until the available pool has been used.</p></div>
+    <p id="setupError" class="form-error" role="alert"></p>
+    <button id="startBtn" class="button button--primary" type="button">Start Round</button>
+  </form>
+</section>
+
+<!-- REVEAL -->
+<section id="revealScreen" class="screen" aria-labelledby="revealTitle">
+  <p id="revealCount" class="progress-label">PLAYER 1 OF 1</p>
+  <div class="progress" role="progressbar" aria-labelledby="revealCount" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span id="revealBar" class="progress__fill"></span></div>
+  <h2 id="revealTitle" class="screen__title screen__title--center">Take the phone, <span id="turnName">player</span></h2>
+  <p class="screen__lead">Make sure nobody is looking. Press and hold the card to see your role, and let go to hide it.</p>
+  <div class="reveal-stage">
+    <div id="revealCard" class="reveal-card" role="button" tabindex="0" aria-pressed="false" aria-describedby="revealHelp">
+      <div class="reveal-card__face reveal-card__front">
+        <span class="reveal-card__sigil" aria-hidden="true">?</span>
+        <b id="frontName" class="reveal-card__name"></b>
+        <span class="reveal-card__label">Your secret role</span>
+        <span class="reveal-card__prompt">PRESS AND HOLD TO REVEAL</span>
+      </div>
+      <div id="cardBack" class="reveal-card__face reveal-card__back" aria-hidden="true">
+        <small id="backName" class="reveal-card__player"></small>
+        <h3 id="roleTitle" class="reveal-card__role"></h3>
+        <strong id="secretWord" class="reveal-card__secret"></strong>
+        <p id="roleText" class="reveal-card__message"></p>
+        <p id="revealHint" class="reveal-card__hint"></p>
+      </div>
+    </div>
+  </div>
+  <p id="revealHelp" class="screen__lead">Keyboard: hold Space or Enter while the card is focused.</p>
+  <p id="holdIndicator" class="hold-indicator" aria-hidden="true"><span class="hold-indicator__dot"></span>Card is open</p>
+  <div class="actions">
+    <button id="hideBtn" class="button" type="button">Hide &amp; Pass Device</button>
+    <button id="nextBtn" class="button button--primary" type="button" hidden>Continue</button>
+  </div>
+</section>
+
+<!-- DISCUSSION -->
+<section id="discussionScreen" class="screen" aria-labelledby="discussionTitle">
+  <h2 id="discussionTitle" class="screen__title screen__title--center">Talk. Watch. Suspect.</h2>
+  <p class="screen__lead">Go around the group. Each player gives one clue about the word. Do not make it too obvious.</p>
+  <div class="round-banner"><span aria-hidden="true">🕵️</span><span>Listen for clues that are <strong>too vague</strong>… or suspiciously specific.</span></div>
+  <div class="timer-dial">
+    <svg class="timer-dial__svg" viewBox="0 0 100 100" aria-hidden="true"><circle class="timer-dial__track" cx="50" cy="50" r="45"/><circle id="ring" class="timer-dial__ring" cx="50" cy="50" r="45"/></svg>
+    <div id="timer" class="timer-dial__time" role="timer" aria-live="off">02:00</div>
+  </div>
+  <div class="actions actions--row">
+    <button id="tToggle" class="button" type="button">Start</button>
+    <button id="tReset" class="button" type="button">Reset</button>
+  </div>
+  <button id="toVote" class="button button--primary" type="button">Go to Voting</button>
+</section>
+
+<!-- VOTING -->
+<section id="votingScreen" class="screen" aria-labelledby="votingTitle">
+  <h2 id="votingTitle" class="screen__title">Who is the imposter?</h2>
+
+  <p class="screen__lead">
+    Each player gets one vote. Tap + to give a player a vote and − to remove it.
+    The player with the most votes is accused. A tie catches nobody.
+  </p>
+
+  <div id="voteList" class="vote-grid" role="group" aria-label="Votes per player"></div>
+
+  <p id="voteInfo" class="progress-label" aria-live="polite"></p>
+
+  <div class="actions actions--row">
+    <button id="voteCancel" class="button" type="button">Back</button>
+    <button id="submitVotes" class="button button--primary" type="button" disabled>
+      Confirm Votes
+    </button>
+  </div>
+</section>
+
+<!-- LAST CHANCE: used by the Last Chance mode before round results -->
+<section id="lastChanceScreen" class="screen" aria-labelledby="lastChanceTitle">
+  <h2 id="lastChanceTitle" class="screen__title screen__title--center">One last chance.</h2>
+  <p id="lastChancePrompt" class="screen__lead">The accused imposter can make one final guess at the secret word.</p>
+  <form id="lastChanceForm" class="panel" novalidate>
+    <div class="field"><label for="lastChanceGuess">Final word guess</label><input id="lastChanceGuess" class="input" name="lastChanceGuess" type="text" maxlength="80" autocomplete="off" placeholder="What was the secret word?"></div>
+    <p id="lastChanceError" class="form-error" role="alert"></p>
+    <div class="actions actions--row"><button id="skipLastChance" class="button" type="button">Skip Guess</button><button id="submitLastChance" class="button button--primary" type="submit">Lock In Guess</button></div>
+  </form>
+</section>
+
+<!-- RESULTS -->
+<section id="resultsScreen" class="screen" aria-labelledby="resHead">
+  <h2 id="resHead" class="screen__title screen__title--center"></h2>
+  <p id="resWinner" class="result-winner"></p>
+  <p id="resMsg" class="screen__lead"></p>
+  <div class="panel panel--center"><small>The secret word was</small><strong id="resWord" class="result-word"></strong></div>
+  <div class="panel"><h3 class="panel__title">Imposters</h3><ul id="resImposters" class="result-list"></ul></div>
+  <div class="panel"><h3 class="panel__title">Votes and points</h3><div id="resPlayers" class="result-list"></div></div>
+  <div class="panel"><h3 class="panel__title">Round summary</h3><p id="resSummary"></p><dl id="resStats" class="stat-strip"></dl></div>
+  <div id="resBoardPanel" class="panel"><h3 class="panel__title">Leaderboard</h3><ol id="boardResult" class="leaderboard"></ol></div>
+  <div class="actions actions--row results-actions"><button id="again" class="button button--primary" type="button">Play Again</button><button id="quickRematch" class="button" type="button">⚡ Quick Rematch</button></div>
+  <button class="button" type="button" data-go="homeScreen">Return Home</button>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievementsScreen" class="screen" aria-labelledby="achievementsTitle">
+  <button class="button button--ghost nav-back" type="button" data-go="homeScreen">← Back</button>
+  <h2 id="achievementsTitle" class="screen__title">Achievements</h2>
+  <p class="screen__lead">Earn badges as your crew plays. Progress saves on this device.</p>
+  <div id="achievementGrid" class="achievement-grid"></div>
+  <div class="panel"><h3 class="panel__title">Career stats</h3><dl id="careerStats" class="career-stats"></dl></div>
+</section>
+
+<!-- LEADERBOARD -->
+<section id="leaderboardScreen" class="screen" aria-labelledby="lbTitle">
+  <button class="button button--ghost nav-back" type="button" data-go="homeScreen">← Back</button>
+  <h2 id="lbTitle" class="screen__title">Leaderboard</h2>
+  <div class="panel"><ol id="boardMain" class="leaderboard"></ol></div>
+  <button id="resetScores" class="button button--danger" type="button">Reset All Scores</button>
+</section>
+
+<!-- SETTINGS -->
+<section id="settingsScreen" class="screen" aria-labelledby="settingsTitle">
+  <button class="button button--ghost nav-back" type="button" data-go="homeScreen">← Back</button>
+  <h2 id="settingsTitle" class="screen__title">Settings</h2>
+  <form class="panel" id="settingsForm" novalidate>
+    <label class="toggle" for="setLight"><input id="setLight" type="checkbox"><span>Light theme</span></label>
+    <label class="toggle" for="setSound"><input id="setSound" type="checkbox"><span>Sound effects</span></label>
+    <label class="toggle" for="setMotion"><input id="setMotion" type="checkbox"><span>Reduce animations</span></label>
+    <label class="toggle" for="setHints"><input id="setHints" type="checkbox"><span>Imposter hints</span></label>
+    <label class="toggle" for="setBoard"><input id="setBoard" type="checkbox"><span>Show leaderboard on results</span></label>
+    <label class="toggle" for="setHaptics"><input id="setHaptics" type="checkbox"><span>Vibration feedback (supported devices)</span></label>
+    <label class="toggle" for="setFullscreen"><input id="setFullscreen" type="checkbox"><span>Prefer fullscreen during play</span></label>
+    <div class="field"><label for="setTimer">Discussion timer</label>
+      <select id="setTimer" class="input"><option value="60">1 minute</option><option value="120">2 minutes</option><option value="180">3 minutes</option><option value="300">5 minutes</option></select></div>
+  </form>
+  <div class="actions actions--row settings-actions"><button id="fullscreenBtn" class="button" type="button">⛶ Toggle Fullscreen</button><button id="resetScores2" class="button button--danger" type="button">Reset All Scores</button></div>
+</section>
+
+<section class="screen" id="emojiScreen">
+  <button class="nav-back" data-go="homeScreen">← Back</button>
+
+  <h2 class="screen__title">Guess the Emoji</h2>
+  <p class="screen__lead">One person holds the phone. Everyone else guesses aloud.</p>
+
+  <div class="panel panel--center">
+    <p class="muted" id="emojiRound">Round 1</p>
+
+    <div class="emoji-clue" id="emojiClue">🍕🧀</div>
+
+    <p class="muted" id="emojiCategory">Food</p>
+
+    <button class="button button--primary" id="emojiReveal">Reveal Answer</button>
+
+    <div id="emojiAnswerBox" hidden>
+      <p class="result-word" id="emojiAnswer">Pizza</p>
+      <div class="actions--row">
+        <button class="button" id="emojiSkip">Skip</button>
+        <button class="button button--primary" id="emojiNext">Next Emoji</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h3>Score</h3>
+    <ul class="result-list" id="emojiScoreList"></ul>
+  </div>
+</section>
+
+<!-- RULES -->
+<section id="rulesScreen" class="screen" aria-labelledby="rulesTitle">
+  <button class="button button--ghost nav-back" type="button" data-go="homeScreen">← Back</button>
+  <h2 id="rulesTitle" class="screen__title">How to play</h2>
+  <div class="panel rules">
+    <h3>Secret roles</h3><p>Civilians all see the same secret word. Imposters see no word, only a note (and a vague hint if hints are on).</p>
+    <h3>Passing the phone</h3><p>Hold the card to see your role, let go to hide it, then tap Continue and hand the phone over. Never look at another player's card.</p>
+    <h3>Discuss</h3><p>Each player gives one clue about the word. Imposters bluff to blend in.</p>
+    <h3>Vote and ties</h3><p>Everyone votes at once. The player with the most votes is accused. If two or more players tie, nobody is caught.</p>
+    <h3>Scoring</h3><p>Accused player is an imposter: each civilian gets 2 points. Wrong player or a tie: each imposter gets 3 points. Points are awarded once per round.</p>
+    <h3>Game modes</h3><p><strong>Classic:</strong> balanced standard rules. <strong>Speed Run:</strong> fast discussion. <strong>Double Trouble:</strong> an extra imposter when the group size allows it. <strong>Blind Imposter:</strong> no imposter hint. <strong>Total Chaos:</strong> random category and difficulty. <strong>Hidden Partners:</strong> secret alliance roles. <strong>Fake Clue:</strong> related but different secret words. <strong>Last Chance:</strong> the accused imposter can attempt one final word guess.</p>
+    <h3>Achievements</h3><p>Play rounds to unlock badges for your first game, a 10-round streak of experience, civilian wins, imposter wins, a unanimous catch, and a big lobby. Progress stays on this device.</p>
+    <h3>Fair play &amp; privacy</h3><p>Pass the device one player at a time. The game stores local scores and settings on this device; it does not need an account or an internet connection.</p>
+    <h3>Winning</h3><p>Civilians win by catching an imposter. Imposters win by avoiding it. In Last Chance mode, a correct final guess may change the outcome.</p>
+  </div>
+</section>
+</main>
+
+<footer class="app-footer"><span>IMPOSTER <b>ULTIMATE</b></span><span>Works offline · Saves locally</span></footer>
+
+<dialog id="dlg" class="dialog" aria-labelledby="dlgText"><p id="dlgText"></p><div class="actions actions--row"><button id="dlgNo" class="button" type="button">Cancel</button><button id="dlgYes" class="button button--primary" type="button">Confirm</button></div></dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
